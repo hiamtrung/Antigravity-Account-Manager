@@ -1,235 +1,228 @@
-# 🚀 Antigravity Manager
+# 🚀 Antigravity Account Manager
 
-<div align="center">
+> **Quản lý và chuyển đổi nhiều tài khoản Antigravity dễ dàng chỉ với một cú click!**
 
-![Version](https://img.shields.io/badge/version-1.1.0-blue.svg)
-![Python](https://img.shields.io/badge/python-3.10+-green.svg)
-![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows-lightgrey.svg)
-![License](https://img.shields.io/badge/license-MIT-orange.svg)
-
-**A powerful multi-account manager for Antigravity with seamless switching, automatic backups, and intelligent management.**
-
-[Features](#-features) • [Quick Start](#-quick-start) • [Documentation](#-documentation) • [Screenshots](#-screenshots) • [Contributing](#-contributing)
-
-</div>
+Công cụ giúp bạn lưu trữ và chuyển đổi giữa nhiều tài khoản Antigravity mà không cần đăng xuất/đăng nhập lại. Hoàn hảo cho developers làm việc với nhiều tài khoản khác nhau (công ty, cá nhân, client...).
 
 ---
 
-## 🌟 Why Antigravity Manager?
+## ✨ Tính Năng Chính
 
-Tired of logging in and out of multiple Antigravity accounts? **Antigravity Manager** solves this by:
-
-- 🔄 **One-Click Switching** - Switch between unlimited accounts in seconds
-- 💾 **Automatic Backups** - Never lose your account data
-- 🔍 **Smart Search** - Find any account instantly
-- 🛡️ **Data Safety** - Atomic operations with automatic rollback
-- 🎨 **Beautiful UI** - Native look & feel with dark mode support
-- ⚡ **Lightning Fast** - Search results in < 50ms
-
----
-
-## ✨ Features
-
-### 🎯 Core Features
-
-| Feature | Description |
-|---------|-------------|
-| **Multi-Account Management** | Store and manage unlimited Antigravity accounts |
-| **One-Click Switching** | Switch between accounts with a single click |
-| **Automatic Detection** | Automatically detects your current account email |
-| **Smart Backup** | Auto-backup before switching (configurable) |
-| **Process Control** | Start/stop Antigravity automatically |
-
-### 🔍 Advanced Features (v1.1.0)
-
-| Feature | Description |
-|---------|-------------|
-| **Real-time Search** | Filter accounts by name or email as you type |
-| **Export/Import** | Share accounts or migrate to another machine |
-| **Auto-Cleanup** | Automatically delete old backups (configurable) |
-| **Batch Verification** | Verify integrity of all backups at once |
-| **Configuration System** | Customize behavior via config file or UI |
-| **Backup Statistics** | View total backups, storage used, and more |
-
-### 🛡️ Reliability Features
-
-- ✅ **Thread-Safe Operations** - No race conditions or data corruption
-- ✅ **Atomic File Writes** - Safe even during crashes
-- ✅ **Database Retry Logic** - Automatic retry with exponential backoff
-- ✅ **Transaction Rollback** - Automatic recovery from errors
-- ✅ **Corrupted File Recovery** - Automatic backup and restoration
+- 🔄 **Chuyển tài khoản 1-click** - Không cần đăng xuất/đăng nhập
+- 💾 **Backup tự động** - Lưu trữ an toàn thông tin đăng nhập
+- 🔍 **Tìm kiếm nhanh** - Tìm tài khoản theo tên hoặc email
+- 📤 **Export/Import** - Chia sẻ hoặc backup tài khoản ra file
+- 🧹 **Tự động dọn dẹp** - Xóa backup cũ theo lịch trình
+- 🎨 **Giao diện đẹp** - Dark/Light mode tự động theo hệ thống
+- 🖥️ **Đa nền tảng** - Hỗ trợ macOS và Windows
 
 ---
 
-## 🚀 Quick Start
+## 📦 Cài Đặt
 
-### Prerequisites
-
-- **Python 3.10+** installed
-- **Antigravity** installed and configured
-- **macOS 10.15+** or **Windows 10+**
-
-### Installation
+### Cách 1: Chạy từ Source (Khuyên dùng)
 
 ```bash
-# 1. Clone the repository
-git clone https://github.com/yourusername/antigravity-manager.git
-cd antigravity-manager
+# 1. Clone repository
+git clone https://github.com/hiamtrung/Antigravity-Account-Manager.git
+cd Antigravity-Account-Manager
 
-# 2. Install dependencies
+# 2. Cài đặt dependencies
 pip install -r requirements.txt
 
-# 3. Run the application
+# 3. Chạy ứng dụng
 python gui/main.py
 ```
 
-### First Time Setup
+### Cách 2: Download File Thực Thi
 
-1. **Launch the app** - It will auto-create the data directory
-2. **Create your first backup** - Click "Backup current" button
-3. **Add more accounts** - Log out, log in with another account, backup again
-4. **Start switching!** - Click any account to switch
-
-That's it! 🎉
+- **macOS**: Download `Antigravity Manager.dmg` từ [Releases](https://github.com/hiamtrung/Antigravity-Account-Manager/releases)
+- **Windows**: Download `Antigravity Manager.exe` từ [Releases](https://github.com/hiamtrung/Antigravity-Account-Manager/releases)
 
 ---
 
-## 📖 Documentation
+## 🎯 Hướng Dẫn Sử Dụng
 
-### User Guides
-- 📘 [**Quick Start Guide**](QUICK_START.md) - Get started in 5 minutes
-- ⌨️ [**Keyboard Shortcuts**](KEYBOARD_SHORTCUTS.md) - Productivity tips
-- 🎉 [**What's New in v1.1.0**](WHATS_NEW.md) - Latest features
+### Bước 1: Tạo Backup Đầu Tiên
 
-### Developer Guides
-- 🔧 [**Technical Improvements**](IMPROVEMENTS.md) - Implementation details
-- 📝 [**Changelog**](CHANGELOG.md) - Version history
-- 📊 [**Implementation Summary**](SUMMARY.md) - Complete overview
+1. Mở Antigravity Manager
+2. Click nút **"Backup current"**
+3. App sẽ tự động phát hiện email của bạn
+4. Backup đầu tiên đã được tạo! 🎉
 
----
+### Bước 2: Thêm Tài Khoản Khác
 
-## 📸 Screenshots
+1. Đăng xuất khỏi Antigravity
+2. Đăng nhập bằng tài khoản khác
+3. Quay lại Antigravity Manager
+4. Click **"Backup current"** lần nữa
+5. Lặp lại cho tất cả tài khoản của bạn
 
-### Dashboard - Account Management
-<div align="center">
-<img src="assets/screenshot-dashboard.png" alt="Dashboard" width="800"/>
-<p><i>Beautiful, intuitive interface with real-time search</i></p>
-</div>
+### Bước 3: Chuyển Đổi Tài Khoản
 
-### Settings - Backup Management
-<div align="center">
-<img src="assets/screenshot-settings.png" alt="Settings" width="800"/>
-<p><i>Powerful backup management and configuration</i></p>
-</div>
-
-### Dark Mode Support
-<div align="center">
-<img src="assets/screenshot-dark.png" alt="Dark Mode" width="800"/>
-<p><i>Automatic dark mode that follows your system preferences</i></p>
-</div>
+1. Tìm tài khoản muốn chuyển (dùng thanh tìm kiếm)
+2. Click vào menu **⋮** bên phải
+3. Chọn **"Switch to this account"**
+4. Đợi Antigravity khởi động lại
+5. Xong! Bạn đã đăng nhập tài khoản mới 🚀
 
 ---
 
-## 🎯 Use Cases
+## 🔍 Tính Năng Nổi Bật
 
-### For Developers
+### Tìm Kiếm Thông Minh
 ```
-Work Account (work@company.com)
-  ↓ One click
-Personal Account (personal@gmail.com)
-  ↓ One click
-Client Project (client@project.com)
+Gõ: "work"     → Hiện tất cả tài khoản công việc
+Gõ: "@gmail"   → Hiện tất cả tài khoản Gmail
 ```
 
-### For Teams
-```
-Export backup → Share with team → Import on their machine
-```
+### Export/Import Tài Khoản
+- **Export**: Click chuột phải → Export backup → Lưu file `.json`
+- **Import**: Settings → Import → Chọn file `.json`
+- Dùng để backup hoặc chia sẻ tài khoản giữa các máy
 
-### For Power Users
-```bash
-# CLI automation
-python main.py switch -i 1  # Switch to work account
-python main.py list         # List all accounts
-```
+### Tự Động Dọn Dẹp
+- Tự động xóa backup cũ hơn 30 ngày (có thể tùy chỉnh)
+- Xóa file backup không còn dùng
+- Xem thống kê: Settings → Backup Management
 
 ---
 
-## ⚙️ Configuration
+## ⚙️ Cấu Hình
 
-### Default Settings
-
-The app creates `~/.antigravity-agent/config.json` with sensible defaults:
+File cấu hình: `~/.antigravity-agent/config.json`
 
 ```json
 {
-  "auto_backup_on_startup": true,
-  "auto_backup_on_switch": true,
-  "backup_retention_days": 30,
-  "confirm_before_delete": true,
-  "theme_mode": "system"
-}
-```
-
-### Customization
-
-Edit the config file to customize behavior:
-
-```json
-{
-  "backup_retention_days": 60,        // Keep backups for 60 days
-  "auto_backup_on_switch": false,     // Disable auto-backup
-  "db_timeout": 30.0,                 // Database timeout in seconds
-  "enable_debug_logging": true        // Enable debug logs
+  "auto_backup_on_startup": true,        // Tự động backup khi mở app
+  "auto_backup_on_switch": true,         // Tự động backup trước khi chuyển
+  "backup_retention_days": 30,           // Xóa backup cũ hơn 30 ngày
+  "confirm_before_delete": true,         // Xác nhận trước khi xóa
+  "theme_mode": "system"                 // "light", "dark", hoặc "system"
 }
 ```
 
 ---
 
-## 🛠️ Advanced Usage
-
-### CLI Mode
+## �[️ CLI Mode (Cho Người Dùng Nâng Cao)
 
 ```bash
-# List all accounts
+# Xem danh sách tài khoản
 python main.py list
 
-# Add current account
-python main.py add -n "Work Account"
+# Tạo backup
+python main.py add
 
-# Switch to account
+# Chuyển tài khoản (dùng số thứ tự)
 python main.py switch -i 1
 
-# Delete account
-python main.py delete -i 2
+# Xóa backup
+python main.py delete -i 1
 
-# Start/Stop Antigravity
+# Khởi động/Dừng Antigravity
 python main.py start
 python main.py stop
 ```
 
-### Export/Import
+---
 
-```bash
-# Export account (GUI)
-Right-click account → Export backup → Save to file
+## ❓ Câu Hỏi Thường Gặp
 
-# Import account (GUI)
-Settings → Import button → Select file
+### "Database is locked" - Làm sao?
+**Giải pháp**: Đóng hoàn toàn Antigravity trước khi chuyển tài khoản.
 
-# Programmatic export
-from backup_manager import export_backup
-export_backup(account_id, "/path/to/backup.json")
-```
+### Backup được lưu ở đâu?
+**Vị trí**: `~/.antigravity-agent/backups/`
 
-### Automation
+### Có thể dùng trên nhiều máy không?
+**Có**: Export tài khoản ra file `.json` và import trên máy khác.
 
-```bash
-#!/bin/bash
-# Switch to work account every morning at 9 AM
-# Add to crontab: 0 9 * * 1-5 /path/to/switch-work.sh
+### Dữ liệu có an toàn không?
+**Có**: Tất cả dữ liệu lưu local, không gửi lên internet.
 
-cd /path/to/antigravity-manager
+### Làm sao xóa backup cũ?
+**Cách 1**: Settings → Backup Management → Clean Old Backups  
+**Cách 2**: Tự động xóa theo `backup_retention_days` trong config
+
+---
+
+## 🔐 Bảo Mật
+
+- ✅ Dữ liệu lưu trữ local (không upload lên cloud)
+- ✅ Không có kết nối mạng
+- ✅ Quyền file theo hệ điều hành
+- ⚠️ Backup files **chưa được mã hóa** (sẽ có trong v1.2.0)
+
+**Khuyến nghị**: 
+- Không chia sẻ file backup công khai
+- Backup định kỳ folder `~/.antigravity-agent`
+- Sử dụng mật khẩu mạnh cho tài khoản Antigravity
+
+---
+
+## 📚 Tài Liệu Thêm
+
+- 📖 [Quick Start Guide](QUICK_START.md) - Hướng dẫn chi tiết 5 phút
+- ⌨️ [Keyboard Shortcuts](KEYBOARD_SHORTCUTS.md) - Phím tắt
+- 🔧 [Technical Details](IMPROVEMENTS.md) - Chi tiết kỹ thuật
+- 📝 [Changelog](CHANGELOG.md) - Lịch sử phiên bản
+
+---
+
+## 🐛 Báo Lỗi & Góp Ý
+
+Gặp vấn đề? Có ý tưởng mới?
+
+- 🐛 [Báo lỗi](https://github.com/hiamtrung/Antigravity-Account-Manager/issues)
+- 💡 [Đề xuất tính năng](https://github.com/hiamtrung/Antigravity-Account-Manager/issues)
+- ⭐ [Star repo](https://github.com/hiamtrung/Antigravity-Account-Manager) nếu thấy hữu ích!
+
+---
+
+## 🚀 Tính Năng Sắp Có (v1.2.0)
+
+- 🔐 Mã hóa backup files
+- 🔔 Thông báo desktop
+- ⌨️ Phím tắt
+- 🏷️ Gắn tag cho tài khoản
+- ☁️ Đồng bộ cloud (tùy chọn)
+
+---
+
+## 📊 Thống Kê
+
+![Version](https://img.shields.io/badge/version-1.1.0-blue)
+![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows-lightgrey)
+![Python](https://img.shields.io/badge/python-3.10%2B-green)
+![License](https://img.shields.io/badge/license-MIT-orange)
+
+---
+
+## 🙏 Credits
+
+- **Tác giả**: [Ctrler](https://github.com/hiamtrung)
+- **Framework**: [Flet](https://flet.dev) - Cross-platform GUI
+- **Inspired by**: Cursor Account Manager
+
+---
+
+## 📄 License
+
+MIT License - Xem [LICENSE](LICENSE) để biết thêm chi tiết.
+
+---
+
+## 💖 Ủng Hộ Dự Án
+
+Nếu project này hữu ích với bạn:
+
+- ⭐ Star repo trên GitHub
+- 🐛 Báo lỗi và góp ý
+- 📢 Chia sẻ với bạn bè
+- ☕ [Mua tôi một ly cà phê](ko-fi.com/hiamtrungnguyen) (tùy chọn)
+
+---
+
 python main.py switch -i 1
 ```
 
@@ -407,7 +400,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ```
 MIT License
 
-Copyright (c) 2025 Ctrler
+Copyright (c) 2025
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -426,28 +419,17 @@ copies or substantial portions of the Software.
 
 ### Get Help
 - 📖 [Documentation](QUICK_START.md)
-- 🐛 [Report Issues](https://github.com/yourusername/antigravity-manager/issues)
-- 💬 [Discussions](https://github.com/yourusername/antigravity-manager/discussions)
-- 📧 Email: support@example.com
+- 🐛 [Report Issues](https://github.com/hiamtrung/antigravity-account-manager/issues)
+- 💬 [Discussions](https://github.com/yourusername/antigravity-account-manager/discussions)
+- 📧 Email: trungnguyen.ui@gmail.com
 
 ### Stay Updated
 - ⭐ Star this repo
 - 👀 Watch for releases
-- 🐦 Follow on Twitter: [@antigravity_mgr](https://twitter.com/antigravity_mgr)
 
 ---
 
-## ⚡ Quick Links
-
-- [Download Latest Release](https://github.com/yourusername/antigravity-manager/releases/latest)
-- [View Changelog](CHANGELOG.md)
-- [Read Documentation](QUICK_START.md)
-- [Report Bug](https://github.com/yourusername/antigravity-manager/issues/new)
-- [Request Feature](https://github.com/yourusername/antigravity-manager/issues/new?labels=enhancement)
-
----
-
-<div align="center">
+<div align="center"></div>
 
 If you find this project useful, please consider giving it a ⭐!
 
