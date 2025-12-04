@@ -449,8 +449,6 @@ copies or substantial portions of the Software.
 
 <div align="center">
 
-**Made with ❤️ by [Ctrler](https://github.com/ctrler)**
-
 If you find this project useful, please consider giving it a ⭐!
 
 [⬆ Back to Top](#-antigravity-manager)
