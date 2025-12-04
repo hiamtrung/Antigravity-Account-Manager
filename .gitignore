@@ -1,0 +1,52 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# User Data - DO NOT COMMIT
+antigravity_accounts.json
+config.json
+*.log
+backups/
+*.backup
+*.old
+*.tmp
+*.corrupted
+.antigravity-agent/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.spec
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Temporary files
+tmp.rsrc
+*.dmg
+*.exe
+
+# Large icon files (use smaller versions or download separately)
+*.icns
