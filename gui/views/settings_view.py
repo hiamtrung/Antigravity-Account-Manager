@@ -141,7 +141,7 @@ class SettingsView(ft.Container):
                                                 ft.Row(
                                                     [
                                                         ft.Text("Author:", size=13, color=self.palette.text_grey, weight=ft.FontWeight.W_500),
-                                                        ft.Text("Ctrler", size=13, color=self.palette.text_main),
+                                                        ft.Text("TrungNguyen", size=13, color=self.palette.text_main),
                                                     ],
                                                     spacing=5
                                                 ),
@@ -149,7 +149,7 @@ class SettingsView(ft.Container):
                                                 ft.Row(
                                                     [
                                                         ft.Text("Official WeChat account:", size=13, color=self.palette.text_grey, weight=ft.FontWeight.W_500),
-                                                        ft.Text("Ctrler", size=13, color=self.palette.text_main),
+                                                        ft.Text("TrungNguyen", size=13, color=self.palette.text_main),
                                                     ],
                                                     spacing=5
                                                 ),

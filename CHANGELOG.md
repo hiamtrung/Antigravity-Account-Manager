@@ -263,7 +263,7 @@ We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guid
 ## Credits
 
 ### Core Team
-- **Ctrler** - Original author and maintainer
+- **TrungNguyen** - Original author and maintainer
 
 ### Contributors
 - Community testers and bug reporters

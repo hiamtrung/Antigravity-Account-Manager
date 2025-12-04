@@ -32,8 +32,8 @@ unset PYTHONINSPECT
 # 使用 python -c 直接调用 flet_cli，绕过可能的入口点问题，并重定向输入
 python -c "import sys; from flet.cli import main; main()" build macos \
     --product "Antigravity Manager" \
-    --org "com.ctrler.antigravity" \
-    --copyright "Copyright (c) 2025 Ctrler" \
+    --org "com.TrungNguyen.antigravity" \
+    --copyright "Copyright (c) 2025 TrungNguyen" \
     --build-version "1.0.0" \
     --desc "Antigravity 账号管理工具" < /dev/null
 EXIT_CODE=$?

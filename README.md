@@ -200,7 +200,7 @@ Gặp vấn đề? Có ý tưởng mới?
 
 ## 🙏 Credits
 
-- **Tác giả**: [Ctrler](https://github.com/hiamtrung)
+- **Tác giả**: [TrungNguyen](https://github.com/hiamtrung)
 - **Framework**: [Flet](https://flet.dev) - Cross-platform GUI
 - **Inspired by**: Cursor Account Manager
 
@@ -219,7 +219,7 @@ Nếu project này hữu ích với bạn:
 - ⭐ Star repo trên GitHub
 - 🐛 Báo lỗi và góp ý
 - 📢 Chia sẻ với bạn bè
-- ☕ [Mua tôi một ly cà phê](ko-fi.com/hiamtrungnguyen) (tùy chọn)
+- ☕ [Mua tôi một ly cà phê] (ko-fi.com/hiamtrungnguyen) (tùy chọn)
 
 ---
 
@@ -387,7 +387,7 @@ License:         MIT
 - macOS System Preferences - UI/UX design
 
 ### Contributors
-- **Ctrler** - Original author and maintainer
+- **TrungNguyen** - Original author and maintainer
 - **Community** - Bug reports and feature suggestions
 - **You?** - [Become a contributor!](#-contributing)
 
